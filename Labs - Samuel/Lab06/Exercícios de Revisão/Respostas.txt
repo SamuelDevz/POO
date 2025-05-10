@@ -1,0 +1,13 @@
+1. Em que momento os destrutores são chamados?
+
+Eles são chamados quando a vida do objeto chega ao fim​.
+
+2. É sempre necessário criar um destrutor? O que acontece se não criarmos?
+
+É recomendado criar um construtor para a classe porém se não criar o compilador cria um 
+destrutor padrão.
+
+3. Para que servem os destrutores?
+
+A função do destrutor é encerrar/destruir coisas​. São Importante para se trabalhar com recursos
+como: Alocação dinâmica de memória, Leitura de arquivos​ e abertura de conexões​ como exemplos.

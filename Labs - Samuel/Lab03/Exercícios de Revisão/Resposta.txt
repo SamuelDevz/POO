@@ -1,0 +1,16 @@
+1. Qual a diferença entre um objeto, uma instância e uma variável?
+
+Variavel: Nome dado a alocação de memoria
+Objeto: Variavel do tipo de uma classe
+Instância: Processo de criação de um objeto.
+
+2. O que significa a sigla POD? Uma classe pode ser um POD?
+
+A sigla POD significa Plain-Old Data, e se refere a uma estrutura de dados simples onde
+não há nenhuma associação entre dados e qualquer outra função e método.
+
+3. Quais são os benefícios do encapsulamento?
+
+Não é preciso conhecer os detalhes de implementação​ e pode alterar a implementação 
+sem mudar a interface​. Como os dados estão ocultos para fora classe força o uso de 
+métodos e assim garante a manipulação correta dos dados. 

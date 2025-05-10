@@ -1,0 +1,15 @@
+1. Para que serve o operador de resolução de escopo?
+
+Ele serve para indicar a que classe o método pertence. Isso permite ter o 
+mesmo nome de função em classes diferentes​.
+
+2. Em que locais o operador de resolução de escopo não deve ser usado?
+
+- Dentro da declaração da classe​.
+- Para acessar membros dentro de funções membro​
+
+3. Existem duas formas de criar um método inline em C++. Quais são elas?
+
+Uma delas é definindo na declaração da classe. E outra forma é quando separamos
+definimos a função em .cpp e colocamos a palavra chave inline. Precisamos definir
+em cada .cpp a função inline.

@@ -1,0 +1,17 @@
+1. Qual a semelhança entre as classes e os tipos primitivos em C++? 
+
+A classe é a forma do C++ traduzir uma abstração ​em um tipo definido pelo programador​.
+Ou seja, vemos que pode se assemelhar com o registro que definem um novo tipo. E
+podemos utilizar como se fosse uma variável por isso que assemelha com os tipos
+primitivos.
+
+2. Como uma classe obtém encapsulamento e ocultação de dados?
+
+Usando a interface privada, visto que nenhuma função externa a classe, nem a função 
+principal do programa, vai poder alterar diretamente os dados.​ Isso garante que
+os dados vão ser ocultados para o mundo externo.
+
+3. De que forma os métodos ajudam a manter a integridade dos atributos?
+
+Os métodos serão os meios para que a acesse os atributos da classe visto que compõe 
+a interface pública. O programa só tem acesso aos atributos pela chamada de um método.​
