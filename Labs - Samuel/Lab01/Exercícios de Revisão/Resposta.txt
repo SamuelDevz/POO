@@ -1,0 +1,21 @@
+1. Como uma classe obtém uma abstração do mundo real?
+
+A classe obtém uma abstração através dos aspectos essenciais 
+e ignora as características menos importantes ou acidentais.
+Um exemplo que podemos citar é o carro. Um carro tem características
+como cor, tipo, velocidade máxima; e também possui operações, como 
+acelerar, frear e ligar. Nesse exemplo, vemos que ele abstraiu 
+informações que são comuns a todos ou à maioria dos carros.
+
+2. Qual a relação entre uma classe e um objeto?
+
+A classe é composto de dados e funções pensando neles como fazendo parte de uma 
+única entidade. Enquanto o objeto é uma variável de uma classe que também pode 
+ser chamada de instancia.
+
+3. De que formas as funções na abordagem orientada a objetos são diferentes das funções na programação estruturada?
+
+Na abordagem estruturada pensamos nos dados e funções, mas de forma desconectada.​ Enquanto na abordagem
+da orientação a objeto pensamos ela como fazendo fazer de uma única entidade. As funções sempre indicamos 
+sobre quais dados elas vão operar na programação estruturada. As funções sempre vão agir sobre os dados 
+aos quais elas foram associadas na orientação a objetos. ​

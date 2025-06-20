@@ -1,0 +1,23 @@
+1. Em que momento os construtores são chamados?
+
+Ele(s) são chamado(s) automaticamente na construção do objeto.​
+
+2. O que é um construtor padrão? Qual a sua finalidade?
+
+O construtor padrão é quando o compilador cria um construtor para uma classe
+quando ele própria não tiver um construtor. Ele é construtor vazio, ou seja,
+sem parâmetros.
+
+3. Escreva todas as 8 diferentes formas de criar um objeto para o construtor:
+
+Jogo(const string& titulo = "Nenhum", float valor = 0);
+
+Jogo gears;
+Jogo gears();
+Jogo gears = {};
+Jogo gears = Jogo();
+
+Jogo gears = Jogo("Gears", 50.0f);
+Jogo gears = {"Gears", 50.0f};
+Jogo gears("Gears", 50.0f);
+Jogo gears {"Gears", 50.0f};

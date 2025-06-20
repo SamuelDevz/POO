@@ -1,0 +1,23 @@
+Quais as vantagens e desvantagens de cada abordagem?
+
+Vantagens da abordagem com métodos convencionais
+
+Clareza e Explicitação: Os nomes dos métodos são autoexplicativos (ex: Soma, Subtrair, Inverter), tornando o código mais legível e fácil de entender para iniciantes
+Manutenção: É mais fácil manter e debugar pois cada operação tem um nome específico
+Flexibilidade: Permite nomes mais descritivos que podem expressar melhor a intenção da operação
+
+Desvantagens da abordagem com métodos convencionais
+
+Sintaxe mais verbosa: O código fica mais longo e menos elegante
+
+
+Vantagens da abordagem com sobrecarga de operadores
+
+Sintaxe mais concisa: O código fica mais limpo e elegante'
+Código mais curto: Menos digitação para operações comuns
+Consistência com tipos nativos: Comportamento similar aos tipos primitivos do C++
+
+Desvantagens da abordagem com sobrecarga de operadores
+
+Funções amigas: Necessidade de usar funções amigas para alguns operadores (como operator* e operator<<)
+Manutenção mais complexa: Pode ser mais difícil debugar quando há problemas

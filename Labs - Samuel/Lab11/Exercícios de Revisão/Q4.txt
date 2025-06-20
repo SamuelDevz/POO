@@ -1,0 +1,40 @@
+Com base na experiência adquirida pelas implementações feitas nas questões 
+anteriores, qual seria a melhor forma de implementar a classe Vetor e quais as 
+vantagens e desvantagens de cada abordagem?
+
+Implementação Q1 (Representação Dupla)
+----------------------------------------
+Vantagens:
+- Permite alternar entre representações retangulares e polares
+- Mais flexível para visualização dos dados
+- Mantém ambas as representações sincronizadas
+
+Desvantagens:
+- Maior complexidade de implementação
+- Mais memória utilizada (armazena 4 valores)
+- Necessidade de manter consistência entre as representações
+- Métodos mais verbosos (Soma, Subtrair, etc.)
+
+Implementação Q2 (Representação Retangular)
+----------------------------------------
+Vantagens:
+- Implementação mais simples e direta
+- Menor uso de memória (apenas 2 valores)
+- Cálculos mais eficientes para operações básicas
+- Uso de operadores sobrecarregados torna o código mais elegante
+
+Desvantagens:
+- Cálculos de magnitude e ângulo são feitos sob demanda
+- Pode ser menos eficiente para operações que usam frequentemente coordenadas polares
+
+Implementação Q3 (Representação Polar)
+----------------------------------------
+Vantagens:
+- Mais eficiente para operações que usam frequentemente coordenadas polares
+- Implementação mais limpa para certas operações (como multiplicação por escalar)
+- Mantém a magnitude e ângulo como valores primários
+
+Desvantagens:
+- Conversões mais frequentes para coordenadas retangulares
+- Pode ser menos precisa em certas operações devido a conversões
+- Mais complexo para operações que envolvem coordenadas retangulares

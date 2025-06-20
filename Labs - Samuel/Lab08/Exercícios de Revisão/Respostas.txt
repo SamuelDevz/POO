@@ -1,0 +1,32 @@
+1. Quais são as principais características de um TAD?
+
+- Armazenam dados​
+- Fornecem operações​
+- Abstraem detalhes de implementação​
+- Podem ser usados com qualquer tipo de dado
+
+2. Como criar constantes para definir o tamanho de membros de uma classe?
+
+Pode-se usar dois métodos: membros estáticos ou enumerações.
+
+Com enumerações:
+
+class Pilha​
+{​
+private:​
+    enum { MAX = 10 }
+   Item itens[Max];
+   ...​
+};​
+
+3. Como criar constantes que serão usadas apenas dentro de métodos da classe?
+
+Usando membros estáticos dentro da classe como:
+
+class Pilha​
+{​
+private:​
+   static const int Max = 10;
+   Item itens[Max];
+   ...​
+};​
